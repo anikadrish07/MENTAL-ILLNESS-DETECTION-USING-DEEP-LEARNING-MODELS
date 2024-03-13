@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('/static/background.jpg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column; /* Align elements vertically */
+            align-items: center;
+            min-height: 100vh; /* Ensure full height */
+        }
+
+        .container {
+            position: relative;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .login-link {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #1e5489;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .login-link:hover {
+            background-color: #45a049;
+        }
+
+        h1 {
+            margin-top: 20px; /* Adjust margin as needed */
+            color: #0e0e0e;
+            text-align: center;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* Center the form horizontally */
+            margin: 0 auto;
+            max-width: 400px; /* Optionally set a maximum width */
+            width: 100%; /* Ensure the form takes full width */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #000; /* Change text color to black */
+            font-weight: bold; /* Make the text bold */
+            text-align: center; /* Center the text horizontally */
+        }
+
+        textarea {
+            width: calc(100% - 20px); /* Adjust width for the button */
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            position: relative; /* Set the textarea as a relative container */
+        }
+
+        .clear-button {
+            position: absolute;
+            top: 4px; /* Adjust top position as needed */
+            right: 4px; /* Adjust right position as needed */
+            background-color: #f44336;
+            color: #fff;
+            border: none;
+            padding: 4px 8px; /* Adjust padding as needed */
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .clear-button:hover {
+            background-color: #d32f2f;
+        }
+
+        input[type="submit"] {
+            background-color: #1e5489;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        h2 {
+            margin-top: 20px;
+            color: #f9fafb;
+        }
+
+        p {
+            color: #f8faf8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mental Health Prediction</h1>
+    <form id="prediction-form" action="/predict" method="post">
+        <label for="text">Enter your text:</label><br>
+        <textarea id="text" name="text" rows="4" cols="50"></textarea>
+        <button class="clear-button" type="button" onclick="clearText()">X</button>
+        <br>
+        <input type="submit" value="Predict">
+    </form>
+    <a href="/login" class="login-link">Login</a>
+    {% if prediction %}
+        <h2>Prediction:</h2>
+        <p>{{ prediction }}</p>
+    {% endif %}
+
+    <script>
+        function clearText() {
+            document.getElementById("text").value = "";
+        }
+    </script>
+</body>
+</html>
