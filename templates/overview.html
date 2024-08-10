@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/overview.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display SC:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Times New Roman:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sansation:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cambria:wght@400&display=swap"
+    />
+
+    <style>
+        @font-face {
+            font-family: "Lato";
+            src: url("{{ url_for('static', filename='fonts/Lato-Bold.ttf') }}");
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <div class="overview2">
+        <div class="we-are-dedicated-container">
+            <span class="we-are-dedicated-container1">
+                <p class="we-are-dedicated">
+                    We are dedicated to utilizing AI for mental health diagnosis,
+                    harnessing the power of deep learning techniques to predict mental
+                    health outcomes based on user-generated content. By analyzing this
+                    data, we aim to offer predictive models and valuable insights to
+                    support individuals facing mental health challenges.
+                </p>
+                <p class="blank-line">&nbsp;</p>
+                <p class="explore-our-platform">
+                    Explore our platform to discover how we analyze user-generated
+                    content to offer predictive models and valuable information. Our
+                    goal is to promote mental well-being by leveraging technology and
+                    data science.
+                </p>
+                <p class="blank-line1">&nbsp;</p>
+                <p class="join-us-in">
+                    Join us in our mission to foster a supportive community and promote
+                    mental health awareness through innovative solutions. Together, we
+                    can make a positive impact on mental health conditions.
+                </p>
+            </span>
+        </div>
+        <h1 class="welcome-to-our">
+            Welcome to Our Innovative Mental Health AI Project!
+        </h1>
+        <img
+            class="ffcbf0-9a09-48a1-a23a-771ff8ed-icon"
+            loading="lazy"
+            alt=""
+            src="{{ url_for('static', filename='images/60ffcbf09a0948a1a23a771ff8edbf39-prev-ui-1@2x.png') }}"
+        />
+
+        <img
+            class="overview-child"
+            loading="lazy"
+            alt=""
+            src="{{ url_for('static', filename='images/arrow-2.svg') }}"
+        />
+
+        <button
+            class="check-your-mental-health-now"
+            id="checkYourMentalHealthNow"
+        >
+            <div class="check-your-mental1">CHECK YOUR MENTAL HEALTH NOW</div>
+        </button>
+    </div>
+
+    <script>
+        var checkYourMentalHealthNow = document.getElementById("checkYourMentalHealthNow");
+        if (checkYourMentalHealthNow) {
+            checkYourMentalHealthNow.addEventListener("click", function (e) {
+                window.location.href = "{{ url_for('question1') }}";
+            });
+        }
+    </script>
+</body>
+</html>

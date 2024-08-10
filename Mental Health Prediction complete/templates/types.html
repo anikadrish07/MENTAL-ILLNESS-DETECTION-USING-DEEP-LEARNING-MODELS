@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/types.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display SC:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Times New Roman:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sansation:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cambria:wght@400&display=swap"
+    />
+
+    <style>
+        @font-face {
+            font-family: "Lato";
+            src: url("{{ url_for('static', filename='fonts/Lato-Bold.ttf') }}");
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <div class="types">
+      <section class="homepage">
+        <div class="structure">
+          <div class="container">
+            <div class="content">
+              <h1 class="types-of-mental">Types of Mental Health Disorders</h1>
+            </div>
+            <div class="disorder-grid">
+              <div class="lovepik-com-401746282-depresse-parent">
+                <img
+                  class="lovepik-com-401746282-depresse-icon"
+                  loading="lazy"
+                  alt=""
+                  src="{{ url_for('static', filename='images/lovepik-com401746282depressedboy-1@2x.png') }}"
+                />
+
+                <div class="depression-name">
+                  <b class="depression">Depression</b>
+                </div>
+              </div>
+              <div class="pngwing-1-parent">
+                <img
+                  class="pngwing-1-icon"
+                  loading="lazy"
+                  alt=""
+                  src="{{ url_for('static', filename='images/pngwing-1@2x.png') }}"
+                />
+
+                <div class="anxiety-name">
+                  <b class="anxiety">Anxiety</b>
+                </div>
+              </div>
+              <div class="imgbin-depression-bipolar-diso-parent">
+                <img
+                  class="imgbin-depression-bipolar-diso-icon"
+                  loading="lazy"
+                  alt=""
+                  src="{{ url_for('static', filename='images/imgbin-depressionbipolardisordermajordepressivedisorderpng-1@2x.png') }}"
+                />
+
+                <div class="bipolar-name">
+                  <b class="bipolar-disorder">Bipolar Disorder</b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="combined-disorders">
+            <div class="spectrum-image-parent">
+              <div class="spectrum-image">
+                <img
+                  class="lovepik-com-401871809-caring-f-icon"
+                  loading="lazy"
+                  alt=""
+                  src="{{ url_for('static', filename='images/lovepik-com401871809caringforchildrenwithautism-1@2x.png') }}"
+                />
+
+                <div class="schizophrenia">
+                  <b class="autism">Autism</b>
+                </div>
+              </div>
+              <div class="spectrum-image1">
+                <img
+                  class="imgbin-persecutory-delusion-ha-icon"
+                  loading="lazy"
+                  alt=""
+                  src="{{ url_for('static', filename='images/imgbin-persecutorydelusionhallucinationpsychiatrymajordepressivedisorderpng-1@2x.png') }}"
+                />
+
+
+                <div class="schizophrenia-wrapper">
+                  <b class="schizophrenia1">Schizophrenia </b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="disorders-description">
+        <div class="depression-a-mood-container">
+          <p class="depression1">
+            <b>Depression</b>
+          </p>
+          <p class="a-mood-disorder">
+            A mood disorder that makes a person feel very sad, empty, or
+            hopeless for a long time. It's more than just feeling sad for a day
+            or two; it lasts for weeks or even months. People with depression
+            might lose interest in activities they used to enjoy, have trouble
+            sleeping, or feel very tired all the time. They might also have
+            difficulty concentrating, eating too much or too little, and feeling
+            worthless or guilty. Depression can affect anyone, and it’s not a
+            sign of weakness.
+          </p>
+        </div>
+        <div class="anxiety-description">
+          <div class="anxiety-anxiety-is-container">
+            <p class="anxiety1">
+              <b>Anxiety</b>
+            </p>
+            <p class="anxiety-is-a">
+              Anxiety is a feeling of worry or fear about what might happen.
+              It's like your mind is always on alert, expecting something bad.
+              Sometimes, you might feel nervous for no clear reason. Your heart
+              may beat fast, your hands might sweat, or you could feel dizzy.
+              It's normal to feel anxious before a test or a big event, but for
+              some people, these feelings happen too often and can make everyday
+              life hard. This is called an anxiety disorder.
+            </p>
+          </div>
+          <div class="bipolar-description">
+            <div class="bipolar-disorder-bipolar-container">
+              <p class="bipolar-disorder1">
+                <b>Bipolar Disorder</b>
+              </p>
+              <p class="bipolar-disorder-is">
+                Bipolar disorder is a mental health condition that causes
+                extreme mood swings. These mood swings include emotional highs,
+                known as mania or hypomania, and lows, called depression.
+              </p>
+              <p class="during-a-manic">
+                During a manic phase, a person may feel very happy, energetic,
+                or overly confident. They might take risks or make impulsive
+                decisions.
+              </p>
+              <p class="during-a-depressive">
+                During a depressive phase, the same person can feel very sad,
+                hopeless, and lose interest in activities they once enjoyed.
+                These mood changes can affect sleep, energy levels, behavior,
+                and the ability to think clearly.
+              </p>
+            </div>
+          </div>
+          <div class="spectrum-description">
+            <div class="autism-autism-or-container">
+              <p class="autism1">
+                <b>Autism</b>
+              </p>
+              <p class="autism-or-autism">
+                Autism, or Autism Spectrum Disorder (ASD), is a condition that
+                affects how a person thinks, learns, and interacts with others.
+                People with autism often have challenges with social skills,
+                communication, and repetitive behaviors. They might find it hard
+                to understand social cues, such as body language or tone of
+                voice, making it difficult to make friends or understand others'
+                feelings.
+              </p>
+              <p class="every-person-with">
+                Every person with autism is different. Some might have strong
+                skills in areas like math, art, or music, while others may need
+                more help with daily tasks. Autism can be mild or severe, and
+                people with autism may need different levels of support.
+              </p>
+            </div>
+            <div class="schizophrenia-schizophrenia-is-container">
+              <p class="schizophrenia2">
+                <b>Schizophrenia</b>
+              </p>
+              <p class="schizophrenia-is-a">
+                Schizophrenia is a mental illness that affects how a person
+                thinks, feels, and behaves. People with schizophrenia may have
+                trouble knowing what is real and what is not. They might see or
+                hear things that others do not (hallucinations) or believe
+                things that are not true (delusions). Their thoughts can be very
+                disorganized, making it hard to talk or concentrate.
+                Schizophrenia can also cause a lack of motivation and difficulty
+                in expressing emotions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

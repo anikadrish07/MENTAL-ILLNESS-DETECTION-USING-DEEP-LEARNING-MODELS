@@ -1,0 +1,120 @@
+.r0lviefotiazmdetnta-1-icon {
+  position: absolute;
+  top: 107.9px;
+  left: 726px;
+  width: 577.5px;
+  height: 586.5px;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+}
+.have-you-experienced {
+  top: 252px;
+  left: 106px;
+  width: 548px;
+}
+.assess-your-mental,
+.have-you-experienced,
+.question-no-1 {
+  position: absolute;
+  display: inline-block;
+}
+.assess-your-mental {
+  margin: 0;
+  top: 72px;
+  left: 155px;
+  font-size: var(--font-size-29xl);
+  line-height: 46px;
+  font-weight: 600;
+  font-family: var(--font-playfair-display);
+  color: var(--color-darkslategray);
+  width: 1010px;
+  height: 46px;
+  z-index: 1;
+}
+.question-no-1 {
+  top: 208px;
+  left: 106px;
+  width: 228px;
+  height: 32px;
+}
+.next-questuin {
+  width: 160px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 800;
+  font-family: var(--font-lato);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+}
+.next-question {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm);
+  background-color: var(--color-darkolivegreen-100);
+  position: absolute;
+  top: 626px;
+  left: 465px;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.next-question:hover {
+  background-color: var(--color-darkseagreen);
+}
+.input-box,
+.question-page-1 {
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-times-new-roman);
+}
+.input-box {
+  border: 1px solid var(--color-darkslategray);
+  background-color: transparent;
+  height: 250px;
+  width: 548px;
+  outline: 0;
+  position: absolute;
+  top: 354px;
+  left: 106px;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  color: var(--color-darkolivegreen-200);
+}
+.question-page-1 {
+  width: 100%;
+  height: 768px;
+  position: relative;
+  background-color: var(--color-antiquewhite);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: var(--color-black);
+}
+@media screen and (max-width: 750px) {
+  .assess-your-mental {
+    font-size: var(--font-size-19xl);
+    line-height: 37px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .have-you-experienced {
+    font-size: var(--font-size-lgi);
+  }
+  .assess-your-mental {
+    font-size: var(--font-size-10xl);
+    line-height: 28px;
+  }
+  .question-no-1 {
+    font-size: var(--font-size-lgi);
+  }
+}

@@ -1,0 +1,132 @@
+.about-us1,
+.we-are-a {
+  position: absolute;
+  color: var(--color-darkslategray);
+}
+.we-are-a {
+  top: 179px;
+  left: 130px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-times-new-roman);
+  text-align: justify;
+  display: inline-block;
+  width: 1097px;
+  mix-blend-mode: linear-burn;
+}
+.about-us1 {
+  margin: 0;
+  top: 62px;
+  left: 530px;
+  font-size: 70px;
+  font-weight: 700;
+  font-family: inherit;
+  text-align: center;
+}
+.transparent-tu-bshevat-growth-icon {
+  position: absolute;
+  top: 54px;
+  left: 316px;
+  width: 719px;
+  height: 659px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+.header-icon {
+  left: 164px;
+  border-radius: 50%;
+}
+.about-us-child,
+.about-us-item,
+.header-icon,
+.header-icon1 {
+  position: absolute;
+  top: 456px;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.about-us-child {
+  left: 759px;
+  border-radius: 50%;
+}
+.about-us-item,
+.header-icon1 {
+  left: 460px;
+}
+.header-icon1 {
+  left: 1038px;
+  border-radius: 50%;
+}
+.sayan-roy {
+  position: absolute;
+  top: 622px;
+  left: 484px;
+  display: inline-block;
+  width: 120px;
+  min-width: 120px;
+}
+.anik-adrish-majhi {
+  left: 1025px;
+  width: 216px;
+}
+.anik-adrish-majhi,
+.anwesha-shit,
+.prasun-maji,
+.team-data {
+  position: absolute;
+  top: 622px;
+  display: inline-block;
+}
+.prasun-maji {
+  left: 778px;
+  width: 130px;
+  min-width: 130px;
+}
+.anwesha-shit,
+.team-data {
+  left: 174px;
+  width: 164px;
+}
+.team-data {
+  top: 384px;
+  left: 530px;
+  color: var(--color-darkslategray);
+  text-align: justify;
+  width: 287px;
+  height: 46px;
+  mix-blend-mode: darken;
+}
+.about-us {
+  width: 100%;
+  height: 768px;
+  position: relative;
+  background-color: var(--color-antiquewhite);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-times-new-roman);
+}
+@media screen and (max-width: 767px) {
+  .about-us1 {
+    font-size: 56px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .we-are-a {
+    font-size: var(--font-size-lgi);
+  }
+  .about-us1 {
+    font-size: 42px;
+  }
+  .anik-adrish-majhi,
+  .anwesha-shit,
+  .prasun-maji,
+  .sayan-roy,
+  .team-data {
+    font-size: var(--font-size-lgi);
+  }
+}

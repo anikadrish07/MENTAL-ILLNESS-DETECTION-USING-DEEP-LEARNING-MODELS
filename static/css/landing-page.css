@@ -1,0 +1,142 @@
+.please-note {
+  text-decoration: underline;
+}
+.please-note-these-tests-container {
+  width: 1175px;
+  height: 84px;
+  position: absolute;
+  margin: 0 !important;
+  right: 84px;
+  bottom: 48px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-times-new-roman);
+  color: var(--color-darkolivegreen-100);
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.thank-you-for {
+  margin: 0;
+  width: 1118px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.a-girl-practicing-mindfulness-icon {
+  height: 836px;
+  width: 1028px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -462px;
+  left: calc(50% - 513px);
+  object-fit: cover;
+  mix-blend-mode: linear-burn;
+}
+.your-result-is {
+  margin: 0;
+  height: 0px;
+  width: 1200px;
+  flex: 1;
+  position: absolute;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.result {
+  margin: 0;
+  height: 260px;
+  width: 1200px;
+  flex: 1;
+  position: absolute;
+  font-size: inherit;
+  font-weight: bold;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 1;
+}
+
+
+.a-girl-practicing-mindfulness-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.landing-page,
+.landing-page-inner {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.landing-page-inner {
+  width: 1118px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 4px;
+  max-width: 100%;
+  font-size: var(--font-size-29xl);
+  font-family: var(--font-times-new-roman);
+}
+.landing-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-antiquewhite);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 152px var(--padding-xl) 405px;
+  gap: 73px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-36xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-cambria);
+}
+@media screen and (max-width: 1125px) {
+  .landing-page {
+    gap: 36px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .thank-you-for {
+    font-size: var(--font-size-25xl);
+  }
+  .your-result-is {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .landing-page {
+    gap: 18px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .please-note-these-tests-container {
+    font-size: var(--font-size-lgi);
+  }
+  .thank-you-for {
+    font-size: var(--font-size-14xl);
+  }
+  .your-result-is {
+    font-size: var(--font-size-10xl);
+  }
+}

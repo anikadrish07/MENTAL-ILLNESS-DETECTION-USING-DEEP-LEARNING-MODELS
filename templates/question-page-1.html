@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/question-page-1.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display SC:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Times New Roman:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sansation:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cambria:wght@400&display=swap"
+    />
+
+    <style>
+        @font-face {
+            font-family: "Lato";
+            src: url("{{ url_for('static', filename='fonts/Lato-Bold.ttf') }}");
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <div class="question-page-1">
+        <img
+            class="r0lviefotiazmdetnta-1-icon"
+            loading="lazy"
+            alt=""
+            src="{{ url_for('static', filename='images/2944-r0lviefotiazmdetnta-1@2x.png') }}"
+        />
+
+        <div class="have-you-experienced">
+            Have you experienced any significant changes in your mental health over
+            past few months or recently?
+        </div>
+        <h1 class="assess-your-mental">
+            Assess Your Mental Health: Take the First Step
+        </h1>
+        <b class="question-no-1">Question No. 1</b>
+        <form method="POST" action="{{ url_for('question1') }}">
+            <textarea
+                class="input-box"
+                name="answer"
+                placeholder="Your Answer..."
+                rows="13"
+                cols="27"
+            ></textarea>
+            <button class="next-question" type="submit">
+                <div class="next-questuin">Next Question</div>
+            </button>
+        </form>
+    </div>
+</body>
+</html>

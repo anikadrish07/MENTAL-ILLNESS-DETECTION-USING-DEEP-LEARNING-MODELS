@@ -1,0 +1,184 @@
+.check-your-mental,
+.mental-health-prediction {
+  margin: 0;
+  position: absolute;
+  font-weight: 700;
+  display: inline-block;
+}
+.check-your-mental {
+  top: 488px;
+  left: 156px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-sansation);
+  color: var(--color-black);
+  width: 387px;
+  height: 28px;
+}
+.mental-health-prediction {
+  top: 130px;
+  left: 76px;
+  font-size: var(--font-size-45xl);
+  font-family: var(--font-playfair-display-sc);
+  text-align: center;
+  width: 540px;
+  height: 169px;
+  mix-blend-mode: hard-light;
+}
+.understanding-mental-health {
+  margin: 0;
+  position: absolute;
+  top: 320px;
+  left: 126px;
+  font-size: var(--font-size-5xl);
+  font-weight: 400;
+  font-family: var(--font-times-new-roman);
+  color: var(--color-gray);
+  text-align: justify;
+  display: inline-block;
+  width: 450px;
+  height: 86px;
+  backdrop-filter: blur(4px);
+}
+.human-brain-tree-with-flowers-icon {
+  position: absolute;
+  top: 25px;
+  left: 524px;
+  width: 913px;
+  height: 690px;
+  object-fit: contain;
+}
+.the-results-of {
+  position: absolute;
+  top: 526px;
+  left: 146px;
+  right: 555px;
+  font-size: 15px;
+  font-family: var(--font-times-new-roman);
+  color: var(--color-gray);
+  text-align: center;
+  display: inline-block;
+  width: 398px;
+  height: 22px;
+}
+.divider {
+  position: absolute;
+  top: 451.5px;
+  left: 68.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 561px;
+  height: 1px;
+}
+.start-test1 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 800;
+  font-family: var(--font-lato);
+  color: var(--color-white);
+  text-align: center;
+}
+.start-test {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) 32px;
+  background-color: var(--color-darkolivegreen-100);
+  position: absolute;
+  top: 577px;
+  left: 245px;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.start-test:hover {
+  background-color: var(--color-darkseagreen);
+}
+.overview1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: underline;
+  display: inline-block;
+  min-width: 70px;
+}
+.overview {
+  position: absolute;
+  top: 45px;
+  left: 92px;
+  width: 70px;
+  height: 17px;
+  cursor: pointer;
+}
+.overview:hover {
+  display: flex;
+}
+.about-us1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: underline;
+  display: inline-block;
+  min-width: 70px;
+}
+.about-us {
+  position: absolute;
+  top: 45px;
+  left: 529px;
+  width: 70px;
+  height: 17px;
+  cursor: pointer;
+  z-index: 2;
+}
+.learn-about-mental {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: underline;
+  display: inline-block;
+}
+.learn-about-mental-health {
+  position: absolute;
+  top: 45px;
+  left: 216px;
+  width: 262px;
+  height: 17px;
+  cursor: pointer;
+}
+.front-page {
+  width: 100%;
+  height: 768px;
+  position: relative;
+  background-color: var(--color-antiquewhite);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 750px) {
+  .mental-health-prediction {
+    font-size: var(--font-size-32xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .check-your-mental {
+    font-size: var(--font-size-lgi);
+  }
+  .mental-health-prediction {
+    font-size: var(--font-size-19xl);
+  }
+  .understanding-mental-health {
+    font-size: var(--font-size-lgi);
+  }
+}

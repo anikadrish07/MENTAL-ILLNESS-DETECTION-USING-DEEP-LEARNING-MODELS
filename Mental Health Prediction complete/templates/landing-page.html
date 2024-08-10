@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/landing-page.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display SC:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Times New Roman:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sansation:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cambria:wght@400&display=swap"
+    />
+
+    <style>
+        @font-face {
+            font-family: "Lato";
+            src: url("{{ url_for('static', filename='fonts/Lato-Bold.ttf') }}");
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <div class="landing-page">
+        <section class="please-note-these-tests-container">
+            <span class="please-note">Please Note</span>: These tests are meant to
+            be indicators only and do not replace a full assessment by a qualified
+            psychologist. If you are at all worried about your results or symptoms
+            we would always urge you to seek medical help.
+        </section>
+        <h1 class="thank-you-for">Thank You For Your Valuable Responses!</h1>
+        <div class="landing-page-inner">
+            <div class="a-girl-practicing-mindfulness-parent">
+                <img
+                    class="a-girl-practicing-mindfulness-icon"
+                    alt=""
+                    src="{{ url_for('static', filename='images/agirlpracticingmindfulnessexerciseremovebgpreview-1@2x.png') }}"
+                />
+                <h1 class="your-result-is">Your Result Is Ready!</h1>
+                <div class="result">
+                    {% if prediction == 'anxiety' %}
+                        <p>Anxiety</p>
+                    {% elif prediction == 'Normal-Health-Condition' %}
+                        <p>Normal Health Condition</p>
+                    {% elif prediction == 'bipolar' %}
+                        <p>Bipolar</p>
+                    {% elif prediction == 'depression' %}
+                        <p>Depression</p>
+                    {% else %}
+                        <p>{{ prediction }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

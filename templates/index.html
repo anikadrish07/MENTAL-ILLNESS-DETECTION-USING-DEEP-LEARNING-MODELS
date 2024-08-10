@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display SC:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Times New Roman:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sansation:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cambria:wght@400&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "Lato";
+        src: url("{{ url_for('static', filename='fonts/Lato-Bold.ttf') }}");
+        font-weight: 800;
+      }
+        @font-face {
+        font-family: "Sansation";
+        src: url("./public/Sansation_Bold.ttf");
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "Times New Roman";
+        src: url("./public/times new roman.ttf");
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: "Times New Roman";
+        src: url("./public/times new roman bold.ttf");
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "Cambria";
+        src: url("./public/Cambria-Font-For-Windows.ttf");
+        font-weight: 400;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="front-page">
+      <img
+        class="human-brain-tree-with-flowers-icon"
+        alt=""
+        src="{{ url_for('static', filename='images/humanbraintreewithflowersselfcarementalhealthconceptgenerativeai-618582916removebg-1@2x.png') }}"
+      />
+
+      <div class="front-page-inner">
+        <div class="overview-parent">
+          <div class="overview" id="overviewContainer">
+            <div class="overview1">Overview</div>
+          </div>
+          <div class="learn-about-mental-health" id="learnAboutMentalHealth">
+            <div class="learn-about-mental">
+              Learn About Mental Health Disorder
+            </div>
+          </div>
+          <div class="about-us" id="aboutUsContainer">
+            <div class="about-us1">About Us</div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-parent">
+        <div class="mental-health-prediction-parent">
+          <h1 class="mental-health-prediction">Mental Health Prediction</h1>
+          <div class="understanding-mental-health-ca-wrapper">
+            <h3 class="understanding-mental-health">
+              Understanding mental health can help predict and prevent problems
+              before they worsen, leading to better well-being and happier
+              lives.
+            </h3>
+          </div>
+        </div>
+        <div class="line-wrapper">
+          <div class="frame-child"></div>
+        </div>
+      </div>
+      <div class="front-page-child">
+        <div class="frame-group">
+          <div class="frame-container">
+            <div class="check-your-mental-health-wrapper">
+              <h3 class="check-your-mental">CHECK YOUR MENTAL HEALTH</h3>
+            </div>
+            <div class="the-results-of">
+              The results of this questionnaire will help you understand your
+              position on the mental health scale.
+            </div>
+          </div>
+          <div class="divider"></div>
+          <button class="start-test" id="startTest">
+            <div class="start-test1">START TEST</div>
+          </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+
+      document.getElementById("startTest").onclick = function () {
+        window.location.href = "{{ url_for('question1') }}";
+      };
+      document.getElementById("overviewContainer").onclick = function () {
+        window.location.href = "{{ url_for('overview') }}";
+      };
+      
+      document.getElementById("learnAboutMentalHealth").onclick = function () {
+        window.location.href = "{{ url_for('learn_about_mental_health') }}";
+      };
+      
+      document.getElementById("aboutUsContainer").onclick = function () {
+        window.location.href = "{{ url_for('about_us') }}";
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+.blank-line,
+.blank-line1,
+.explore-our-platform,
+.join-us-in,
+.we-are-dedicated {
+  margin: 0;
+}
+.we-are-dedicated-container1 {
+  width: 100%;
+}
+.we-are-dedicated-container {
+  position: absolute;
+  top: 204px;
+  left: 110px;
+  display: flex;
+  align-items: center;
+  width: 638px;
+  height: 312px;
+}
+.welcome-to-our {
+  margin: 0;
+  position: absolute;
+  width: 91.29%;
+  top: calc(50% - 285px);
+  left: 4.39%;
+  font-size: var(--font-size-29xl);
+  font-weight: 600;
+  font-family: var(--font-playfair-display);
+  text-align: center;
+  display: inline-block;
+  height: 64px;
+}
+.ffcbf0-9a09-48a1-a23a-771ff8ed-icon {
+  position: absolute;
+  top: 204px;
+  left: 756px;
+  width: 555px;
+  height: 324px;
+  object-fit: contain;
+}
+.overview-child {
+  position: absolute;
+  top: 568px;
+  left: 556px;
+  width: 49px;
+  height: 14.7px;
+}
+.check-your-mental1 {
+  height: 29px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 800;
+  font-family: var(--font-lato);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.check-your-mental-health-now {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) 4px;
+  background-color: var(--color-darkolivegreen-100);
+  position: absolute;
+  top: 546px;
+  left: 104px;
+  border-radius: var(--br-81xl);
+  width: 449px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.check-your-mental-health-now:hover {
+  background-color: var(--color-darkseagreen);
+}
+.overview2 {
+  width: 100%;
+  height: 768px;
+  position: relative;
+  background-color: var(--color-antiquewhite);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  font-size: 18px;
+  color: var(--color-darkslategray);
+  font-family: var(--font-open-sans);
+}
+@media screen and (max-width: 750px) {
+  .welcome-to-our {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcome-to-our {
+    font-size: var(--font-size-10xl);
+  }
+}

@@ -1,0 +1,178 @@
+.frame-item {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  mix-blend-mode: multiply;
+}
+.about-us-inner {
+  height: 633px;
+  width: 147px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-476xl) 0 0;
+  box-sizing: border-box;
+}
+.transparent-tu-bshevat-growth-icon {
+  width: 790px;
+  height: 768px;
+  position: relative;
+  object-fit: cover;
+  display: none;
+  mix-blend-mode: normal;
+  max-width: 100%;
+}
+.about-us3 {
+  position: relative;
+  z-index: 1;
+}
+.about-us-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 60px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ellipse-div,
+.frame-inner {
+  height: 138px;
+  width: 147px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  mix-blend-mode: multiply;
+  z-index: 1;
+}
+.ellipse-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.about-us-child,
+.transparent-tu-bshevat-growth-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.transparent-tu-bshevat-growth-parent {
+  align-self: stretch;
+  padding: var(--padding-53xl) 119px 135px 193px;
+  gap: 349px;
+  background-image: url(./public/transparenttubshevatgrowthrenewalstrengthresiliencecolorfultreesymbolizesgrowthstrengthandres65a7734bddb936-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+}
+.about-us-child {
+  width: 817px;
+  flex-shrink: 0;
+  padding: 0 27px 0 0;
+  max-width: calc(100% - 318px);
+}
+.frame-child1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  mix-blend-mode: multiply;
+}
+.about-us2,
+.frame-div {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.frame-div {
+  height: 633px;
+  width: 147px;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-476xl) 0 0;
+}
+.about-us2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-antiquewhite);
+  overflow-x: auto;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-28xl);
+  gap: var(--gap-xs);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-times-new-roman);
+}
+@media screen and (max-width: 1200px) {
+  .about-us2 {
+    padding-left: 23px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .about-us3 {
+    font-size: var(--font-size-32xl);
+  }
+  .transparent-tu-bshevat-growth-parent {
+    gap: 174px;
+    padding-left: 96px;
+    padding-right: var(--padding-40xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .about-us-inner {
+    display: none;
+    padding-top: var(--padding-303xl);
+    box-sizing: border-box;
+  }
+  .transparent-tu-bshevat-growth-parent {
+    padding-top: var(--padding-28xl);
+    padding-bottom: var(--padding-69xl);
+    box-sizing: border-box;
+  }
+  .about-us-child {
+    max-width: 100%;
+  }
+  .frame-div {
+    display: none;
+    padding-top: var(--padding-303xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-us3 {
+    font-size: var(--font-size-19xl);
+  }
+  .about-us-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .ellipse-parent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .transparent-tu-bshevat-growth-parent {
+    gap: var(--gap-68xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

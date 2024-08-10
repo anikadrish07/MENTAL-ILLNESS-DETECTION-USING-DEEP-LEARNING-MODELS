@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/question-page-5.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display SC:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Times New Roman:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sansation:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cambria:wght@400&display=swap"
+    />
+
+    <style>
+        @font-face {
+            font-family: "Lato";
+            src: url("{{ url_for('static', filename='fonts/Lato-Bold.ttf') }}");
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <div class="question-page-5">
+        <img
+            class="r0lviefotiazmdetnta-1-icon4"
+            loading="lazy"
+            alt=""
+            src="{{ url_for('static', filename='images/2944-r0lviefotiazmdetnta-1@2x.png') }}"
+        />
+
+        <div class="is-there-anything">
+            Is there anything else you would like to share about your mental health?
+        </div>
+        <h1 class="assess-your-mental4">
+            Assess Your Mental Health: Take the First Step
+        </h1>
+        <b class="question-no-5-container">
+            <p class="question-no-5">Question No. 5</p>
+        </b>
+        <form method="POST" action="{{ url_for('question5') }}">
+            <textarea
+                class="input-box4"
+                name="answer"
+                placeholder="Your Answer..."
+                rows="13"
+                cols="27"
+            ></textarea>
+            <button class="submit" type="submit">
+                <div class="submit1">Submit</div>
+            </button>
+        </form>
+        <form method="GET" action="{{ url_for('question4') }}">
+            <button class="previous-question6" type="submit">
+                <div class="previous-question7">Previous Question</div>
+            </button>
+        </form>
+    </div>
+</body>
+</html>

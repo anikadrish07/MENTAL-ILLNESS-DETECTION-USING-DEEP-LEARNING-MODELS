@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about-us.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display:wght@600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair Display SC:wght@700&display=swap"
+    />
+
+    <style>
+      @font-face {
+        font-family: "Sansation";
+        src: url("./public/Sansation_Bold.ttf");
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "Times New Roman";
+        src: url("./public/times new roman.ttf");
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: "Times New Roman";
+        src: url("./public/times new roman bold.ttf");
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: "Cambria";
+        src: url("./public/Cambria-Font-For-Windows.ttf");
+        font-weight: 400;
+      }
+      @font-face {
+        font-family: "Lato";
+        src: url("{{ url_for('static', filename='fonts/Lato-Bold.ttf') }}");
+        font-weight: 800;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="about-us">
+      <section class="we-are-a">
+        We are a group of Computer Science and Engineering students from Techno
+        International New Town, Kolkata. Our common interest in solving
+        real-life problems with the help of artificial intelligence led us to
+        realization of this project. Mental illness is still considered a taboo
+        in large factions of our society despite it being so common in todays'
+        age. Our team thinks that we can solve this problem with awareness and
+        being cognizant of own mental condition. By leveraging our interests in
+        AI, front and backend application development; we are offering you this
+        safe and privet space where we listen to you and help you get though
+        your difficulties.
+      </section>
+      <h1 class="about-us1">About Us</h1>
+      <img
+        class="transparent-tu-bshevat-growth-icon"
+        alt=""
+        src="{{ url_for('static', filename='images/transparenttubshevatgrowthrenewalstrengthresiliencecolorfultreesymbolizesgrowthstrengthandres65a7734bddb936-1@2x.png') }}"
+      />
+
+      <img
+        class="header-icon"
+        loading="lazy"
+        alt=""
+        src="{{ url_for('static', filename='images/ellipse-1@2x.png') }}"
+        id="headerImage"
+      />
+
+      <img
+        class="about-us-child"
+        loading="lazy"
+        alt=""
+        src="{{ url_for('static', filename='images/ellipse-2@2x.png') }}"
+        id="ellipseImage"
+      />
+
+      <img
+        class="about-us-item"
+        loading="lazy"
+        alt=""
+        src="{{ url_for('static', filename='images/ellipse-3@2x.png') }}"
+        id="ellipseImage1"
+      />
+
+      <img
+        class="header-icon1"
+        loading="lazy"
+        alt=""
+        src="{{ url_for('static', filename='images/ellipse-4@2x.png') }}"
+        id="headerImage1"
+      />
+
+      <div class="sayan-roy">Sayan Roy</div>
+      <div class="anik-adrish-majhi">Anik Adrish Majhi</div>
+      <div class="prasun-maji">Prasun Maji</div>
+      <div class="anwesha-shit">Anwesha Shit</div>
+      <b class="team-data">TEAM - DATA WIZARDS</b>
+    </div>
+
+    <script>
+      var headerImage = document.getElementById("headerImage");
+      if (headerImage) {
+        headerImage.addEventListener("click", function () {
+          window.open("https://www.linkedin.com/in/anwesha-shit-91a696210");
+        });
+      }
+      
+      var ellipseImage = document.getElementById("ellipseImage");
+      if (ellipseImage) {
+        ellipseImage.addEventListener("click", function () {
+          window.open("https://www.linkedin.com/in/prasun-maji-231695210/");
+        });
+      }
+      
+      var ellipseImage1 = document.getElementById("ellipseImage1");
+      if (ellipseImage1) {
+        ellipseImage1.addEventListener("click", function () {
+          window.open("https://www.linkedin.com/in/sayan-roy-0009-kolkata/");
+        });
+      }
+      
+      var headerImage1 = document.getElementById("headerImage1");
+      if (headerImage1) {
+        headerImage1.addEventListener("click", function () {
+          window.open("https://www.linkedin.com/in/anik-adrish-majhi-3642ba233/");
+        });
+      }
+      </script>
+  </body>
+</html>

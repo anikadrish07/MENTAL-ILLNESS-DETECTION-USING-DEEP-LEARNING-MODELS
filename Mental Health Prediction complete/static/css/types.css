@@ -1,0 +1,478 @@
+.types-of-mental {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-53xl) 0 var(--padding-50xl);
+}
+.lovepik-com-401746282-depresse-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-97xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.depression {
+  height: 50px;
+  flex: 1;
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+}
+.depression-name,
+.lovepik-com-401746282-depresse-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.depression-name {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-lgi) 0 var(--padding-lg);
+}
+.lovepik-com-401746282-depresse-parent {
+  height: 294px;
+  width: 261px;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.anxiety,
+.pngwing-1-icon {
+  flex: 1;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.pngwing-1-icon {
+  align-self: stretch;
+  border-radius: var(--br-97xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.anxiety {
+  height: 50px;
+  text-decoration: underline;
+  display: inline-block;
+}
+.anxiety-name,
+.pngwing-1-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.anxiety-name {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 16px 0 15px;
+}
+.pngwing-1-parent {
+  height: 300.2px;
+  width: 255px;
+  flex-direction: column;
+  gap: 20.4px;
+}
+.imgbin-depression-bipolar-diso-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-97xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bipolar-disorder {
+  height: 50px;
+  flex: 1;
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+}
+.bipolar-name,
+.imgbin-depression-bipolar-diso-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bipolar-name {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 9px;
+}
+.imgbin-depression-bipolar-diso-parent {
+  height: 302px;
+  width: 242px;
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.container,
+.disorder-grid {
+  align-self: stretch;
+  display: flex;
+}
+.disorder-grid {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-times-new-roman);
+}
+.container {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 58px;
+}
+.lovepik-com-401871809-caring-f-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.autism {
+  height: 50px;
+  flex: 1;
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+}
+.schizophrenia,
+.spectrum-image {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.schizophrenia {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 70px 0 var(--padding-50xl);
+}
+.spectrum-image {
+  height: 336px;
+  width: 363px;
+  flex-direction: column;
+  gap: var(--gap-mini);
+  min-width: 363px;
+  max-width: 100%;
+}
+.imgbin-persecutory-delusion-ha-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.schizophrenia1 {
+  height: 50px;
+  flex: 1;
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+}
+.schizophrenia-wrapper,
+.spectrum-image1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.schizophrenia-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 8px;
+}
+.spectrum-image1 {
+  height: 336px;
+  width: 240px;
+  flex-direction: column;
+  gap: var(--gap-mini);
+  min-width: 240px;
+}
+.spectrum-image-parent {
+  width: 742px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.combined-disorders,
+.homepage,
+.spectrum-image-parent,
+.structure {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.combined-disorders {
+  width: 962px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-times-new-roman);
+}
+.homepage,
+.structure {
+  justify-content: flex-start;
+}
+.structure {
+  flex: 1;
+  flex-direction: column;
+  gap: 47px;
+}
+.homepage {
+  width: 1113px;
+  flex-direction: row;
+  padding: 0 63px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-36xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-playfair-display);
+}
+.a-mood-disorder,
+.depression1 {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.a-mood-disorder {
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-times-new-roman);
+}
+.depression-a-mood-container {
+  align-self: stretch;
+  height: 254px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.anxiety-is-a,
+.anxiety1 {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.anxiety-is-a {
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-times-new-roman);
+}
+.anxiety-anxiety-is-container {
+  align-self: stretch;
+  height: 335px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.anxiety-anxiety-is-container,
+.bipolar-disorder1 {
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-playfair-display);
+}
+.bipolar-disorder-is,
+.bipolar-disorder1,
+.during-a-depressive,
+.during-a-manic {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.bipolar-disorder-bipolar-container {
+  height: 445px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.bipolar-description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 11px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.autism1 {
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-playfair-display);
+}
+.autism-or-autism,
+.autism1,
+.every-person-with {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.autism-autism-or-container {
+  align-self: stretch;
+  height: 423px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.schizophrenia-is-a,
+.schizophrenia2 {
+  margin-block-start: 0;
+  margin-block-end: 20px;
+}
+.schizophrenia-is-a {
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-times-new-roman);
+}
+.schizophrenia-schizophrenia-is-container {
+  align-self: stretch;
+  height: 309px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-playfair-display);
+}
+.spectrum-description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.anxiety-description {
+  align-self: stretch;
+  gap: 9px;
+  max-width: 100%;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-times-new-roman);
+}
+.anxiety-description,
+.disorders-description,
+.types {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.disorders-description {
+  align-self: stretch;
+  gap: var(--gap-68xl);
+  max-width: 100%;
+  text-align: justify;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-playfair-display);
+}
+.types {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-antiquewhite);
+  overflow: hidden;
+  padding: var(--padding-69xl) 106px 121px 118px;
+  box-sizing: border-box;
+  gap: 123px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1150px) {
+  .disorder-grid {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .homepage {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .disorders-description {
+    gap: 43px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .types-of-mental {
+    font-size: var(--font-size-25xl);
+  }
+  .content {
+    padding-left: var(--padding-15xl);
+    padding-right: 36px;
+    box-sizing: border-box;
+  }
+  .spectrum-image {
+    flex: 1;
+    min-width: 100%;
+  }
+  .spectrum-image1 {
+    flex: 1;
+  }
+  .spectrum-image-parent {
+    flex-wrap: wrap;
+  }
+  .anxiety-anxiety-is-container,
+  .autism-autism-or-container,
+  .bipolar-disorder-bipolar-container,
+  .depression-a-mood-container,
+  .schizophrenia-schizophrenia-is-container {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .container {
+    gap: var(--gap-10xl);
+  }
+  .structure {
+    gap: var(--gap-4xl);
+  }
+  .disorders-description {
+    gap: 22px;
+  }
+  .types {
+    gap: 61px;
+    padding-left: var(--padding-40xl);
+    padding-right: 53px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .types-of-mental {
+    font-size: var(--font-size-14xl);
+  }
+  .anxiety,
+  .autism,
+  .bipolar-disorder,
+  .depression {
+    font-size: var(--font-size-lgi);
+  }
+  .schizophrenia {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .anxiety-anxiety-is-container,
+  .autism-autism-or-container,
+  .bipolar-disorder-bipolar-container,
+  .depression-a-mood-container,
+  .schizophrenia-schizophrenia-is-container,
+  .schizophrenia1 {
+    font-size: var(--font-size-lgi);
+  }
+  .types {
+    gap: 31px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
